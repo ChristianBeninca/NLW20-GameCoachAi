@@ -1,125 +1,146 @@
-# HTML
-- HyperText
-  - Textos puros, livros, revistas, jornais
-  - Link: acessar outros documentos
-  - Imagens, vídeos, áudios
-- Markup
-  - Marcação
-  - Tags: <a> Link </a>
-  - Atributos: <a href="https://rocketseat.com.br"> rocketseat.com.br </a>
-  - Globais: id, class, ...
-- Language
-  - Linguagem
-  - Sintaxe: maneira de escrever
+# 🎮 GameCoach AI
 
-# HTTP
-- HyperText
-- Transfer
-  - Transferência
-- Protocol
-  - Protocolo
-  Conjunto de regras
-- Methods HTTP (Verbos): Get, Post, Patch/Put, Delete
-- Headers (Cabeçalhos): Instruções/Informações extras para cada chamada
+Coach inteligente para jogos que utiliza a API do Google Gemini para fornecer dicas, estratégias e suporte personalizado aos jogadores.
 
-# URL
-- Uniform
-  - Uniforme
-- Resource
-  - Recurso
-- Locator
-  - Localizador
-Encontrar um recuros (html, css, js, pdf, png, jpg, mp3, mp4, ...)
-Endereço
+## 🚀 Sobre o Projeto
 
-# IP
-- Internet
-  - Rede mundial de computadores
-- Protocol
-  - Conjunto de regras
-Endereço de computador
-rocketseat.com.br (domínio)
-123.23.1.23 (ip)
+Este projeto foi desenvolvido durante o **NLW Agents** da Rocketseat e tem como objetivo criar um assistente de IA especializado em jogos. O usuário pode selecionar seu jogo favorito e fazer perguntas específicas para receber orientações personalizadas.
 
-# DNS
-- Domain
-  - Domínio
-- Name
-  - Nome
-- Server
-  - Servidor
+## ⚡ Funcionalidades
 
-# CSS
-- Cascading
-  - Cascata
-  - Regras das escritas
-  - Hierarquia
-  - Especificidade
-- Style
-  - Estilo
-- Sheet
-   - Folha
+- ✅ Integração com Google Gemini API
+- ✅ Suporte a múltiplos jogos
+- ✅ Interface intuitiva e responsiva
+- ✅ Coaching personalizado em tempo real
 
-De um arquivo qe terá na sua sintaxe, declarações, propriedades e valores.
-A partir disso, o HTML é impactado visualmente.
+## 🛠️ Tecnologias
 
-- Declaração
-- Seletor
-- Propriedade e valor
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- Google Gemini API
+- Fetch API
 
-# JS
-- Linguagem de programação
-- Browsers
-- Input -> Process -> Vutput
-- Variáveis
-- Function
- - Agrupamente e reuso de código
- - Sequência lóica
- - Saída
-- Gemini (IA): Esperar uma resposta
-- Mexer no meu navegador
-- Estrutura de dados
-- Estrutura de decisão
-- Algoritmo: sequencia de passos lógica, de maneira ordenada, a fim de chegar a alguma conclusão (limitada)
-- Lógica (Pensamento computacional)
- - Abstração
- - Decomposição
- - Algoritmo
- - Reconhecimento de padrão
-- Tipos de dados
- - Number (Números)
- - String (textos) (" ", ' ', `   `)
- - Boolean: true | false
- - Objects
- - ...
+Quer conhecer mais sobre minha experiência desenvolvendo este projeto? 
+Confira meu [diário de aprendizado](DEV_JOURNEY.md) onde documento 
+cada etapa do desenvolvimento durante o NLW Agents.
 
- # DOM
- - Document
- - Object
- - Model
+## 🎯 Como usar
 
- # API
- - Application
- - Programming
- - Interface
- - JSON: JavaScript Object Notation
+1. Clone este repositório
+   ```bash
+   git clone https://github.com/ChristianBeninca/NLW20-GameCoachAi.git
+   ```
 
- # CDN
- - Content
- - Delivery
- - Network
+2. Obtenha sua chave da API do Google Gemini
+   - Acesse [Google AI Studio](https://makersuite.google.com/app/apikey)
+   - Crie uma nova chave de API
+   - Guarde a chave com segurança
 
- # LLM
- - Large
- - Language
- - Model
- - Gemini, OpenAI (ChatGPT), Anthropic (Claude), etc...
+3. Abra o projeto em um servidor local
+   ```bash
+   # Usando Python
+   python -m http.server 8000
+   
+   # Ou usando Node.js
+   npx serve .
+   ```
 
- # Agents AI
- - Tools (ferramentas): Permitem uso de código, ou apps, ou qualquer informação extra.
- - Melhor contexto
+4. Acesse `http://localhost:8000` no seu navegador
 
- # Engenharia de prompt
- - One shot: Uma única pergunta sem muito conhecimento
- - Few shot: É apresentado exemplos do que se espera
- - Chain of Thought: Cadeia de pensamento para a IA responder gradativamente conforme a instrução
+5. Insira sua API key, selecione o jogo e faça suas perguntas!
+
+## 🎮 Jogos Suportados
+
+- League of Legends
+- Valorant
+- Counter-Strike: Global Offensive 2
+- World of Warcraft
+- Once Human
+
+## 📸 Screenshots
+
+<div align="center">
+  <img src="assets/exampleEmpty.png" alt="Interface Inicial" width="600" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px;">
+  <br>
+  <img src="assets/exampleImg.png" alt="Em Funcionamento" width="600" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
+
+## 🤝 Contribuindo
+
+Contribuições são sempre bem-vindas! Sinta-se à vontade para:
+
+1. Fazer fork do projeto
+2. Criar uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abrir um Pull Request
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 🎓 Aprendizado
+
+Este projeto foi uma excelente oportunidade para aprender sobre:
+- Integração com APIs de IA
+- Manipulação do DOM
+- Promises e async/await
+- Tratamento de erros
+- CORS e requisições HTTP
+
+## 🙏 Agradecimentos
+
+- [Rocketseat](https://rocketseat.com.br) pelo NLW Agents
+- [Google](https://ai.google.dev/) pela API Gemini
+- Comunidade dev por todo o suporte
+
+---
+
+Desenvolvido com 💜 durante o NLW Agents da Rocketseat
+
+---
+
+<div align="center">
+  <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin: 2rem 0;">
+    
+<div style="
+    background-image: linear-gradient(90deg, #9572FC, #43E7AD, #E2D45C);
+    border-radius: 0.625rem;
+    padding: 4px;
+    display: inline-block;
+  ">
+    <div style="
+      padding: 1rem 2rem;
+      border-radius: 0.5rem;
+      background-color: #2A2634;
+    ">
+      <a href="QUICK_NOTES.md" style="
+        color: white;
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+      ">📚 Minhas Anotações durante as Aulas</a>
+    </div>
+  </div>
+
+<div style="
+    background-image: linear-gradient(90deg, #9572FC, #43E7AD, #E2D45C);
+    border-radius: 0.625rem;
+    padding: 4px;
+    display: inline-block;
+  ">
+    <div style="
+      padding: 1rem 2rem;
+      border-radius: 0.5rem;
+      background-color: #2A2634;
+    ">
+      <a href="DEV_JOURNEY.md" style="
+        color: white;
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+      ">🛠️ Minha Jornada de Desenvolvimento</a>
+    </div>
+  </div>  
+</div>

@@ -1,3 +1,24 @@
+<div style="
+  background-image: linear-gradient(90deg, #9572FC, #43E7AD, #E2D45C);
+  border-radius: 0.625rem;
+  padding: 4px;
+  margin-bottom: 2rem;
+  display: inline-block;
+">
+  <div style="
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    background-color: #2A2634;
+  ">
+    <a href="README.md" style="
+      color: white;
+      text-decoration: none;
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+    ">← Voltar para o README</a>
+  </div>
+</div>
+
 # [07/07/2025] - Primeira aula + apresentação
 - Assiti a apresentação aguardando a liberação da primeira aula.
 - Minhas primeiras impressões com a primeira aulas são mais próximas de conceitos do que um aprendizado de fato.
@@ -14,4 +35,12 @@
 
 # [09/07/2025] - Terceira aula da trilha iniciante
 - Nos primeiros minutos entendemos como coletar as variáveis dos inputs e como usar uma estrutura simples de lógica com if statements, bem tranquilo até agora.
--  
+- A parte de conexão com a API também foi tranquila, apesar de que tivemos 2 pequenos problemas.  
+  - O primeiro deles sendo um falso erro de CORS (com os quais esotu pouco familiarizado devido a maior experiência na área de desenvolvimento de games) em que na verdade era apenas um header escrito de uma forma incorreta qe não acusou corretamente (por ser uma string).  
+  **Importante ressaltar que otive um suporte em apenas 5 min no dicord da Rocketseat, pesoal super atencioso.** 
+  - Já o segundo eu nem lembro mais, mas lembro que tinha... criei espectativa a toa.
+- Após o desafio concluído achei interessante adicionar um jogo que seja mais do meu interesse, Once Human, vou inserir uma mensagem do meu próprio agente caso tenham interesse em conhecer mais sobre o jogo.  
+![Screenshot do GameCoachAI](assets\exampleImg.png)
+
+# Considerações finais
+O #NLW20 ou #NLWAgents foi meu primeiro contato profundo com AI e com desenvolvimento WEB, foi uma experiência magnífica tendo em vista a velocidade das aulas e o tempo que foi necessário investir para absorver tanto conhecimento, é surpreendente o quanto me diverti nessa experiência e tenho sim a inteção de participar de novos desafios quado disponível, uma experiência que recomendos a qualquer curioso mesmo sem experiência prévia de programação.
